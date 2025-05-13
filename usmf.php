@@ -31,7 +31,7 @@
             </div>
             
             <div class="back-button">
-                <a href="start.html" class="btn">Înapoi</a>
+                <a href="start.php" class="btn">Înapoi</a>
             </div>
 
         </div>

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             behavior: 'smooth'  // Derulare lină către începutul paginii
         });
         
-        // După derulare, așteptăm 1 secundă și redirecționăm către pagina „start.html”
+        // După derulare, așteptăm 1 secundă și redirecționăm către pagina „start.php”
         setTimeout(function() {
             window.location.href = backButton.getAttribute('href');
         }, 1000);

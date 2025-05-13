@@ -38,21 +38,21 @@
     <section class="universities">
         <div class="container">
             <div class="university">
-                <a href="usmf.html">
+                <a href="usmf.php">
                     <img src="https://fiziologie.usmf.md/sites/default/files/styles/news_full_1200x800/public/2022-03/DSC_5137_1.JPG?itok=XZluwleo" alt="USMF">
                 </a>
                 <h3>USMF - Universitatea de Stat de Medicină și Farmacie</h3>
                 <p>USMF este una dintre cele mai respectate instituții de învățământ din domeniul medical. Aici, studenții beneficiază de o educație teoretică și practică de top.</p>
             </div>
             <div class="university">
-                <a href="usm.html">
+                <a href="usm.php">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/State_University_of_Moldova_%28cropped%29.jpg" alt="USM">
                 </a>
                 <h3>USM - Universitatea de Stat din Moldova</h3>
                 <p>USM este o instituție de învățământ cu o tradiție îndelungată, care pregătește specialiști de top în domeniul științelor sociale și umaniste.</p>
             </div>
             <div class="university">
-                <a href="utm.html">
+                <a href="utm.php">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wHJZCIAVGfyZsb5EJchFVr3Bn8dYtlVOJg&s" alt="UTM">
                 </a>
                 <h3>UTM - Universitatea Tehnică din Moldova</h3>
