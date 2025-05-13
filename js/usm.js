@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Afișează un mesaj de bun venit
-    alert("Bine ai venit la Universitatea de Stat din Moldova!");
 
     // 2. Derulare lină când se apasă pe butonul „Înapoi”
     const backButton = document.getElementById('backButton');

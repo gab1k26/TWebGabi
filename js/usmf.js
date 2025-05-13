@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Afișează un mesaj de bun venit
-    alert("Bine ai venit la Universitatea de Stat de Medicină și Farmacie „Nicolae Testemițanu”!");
 
     // 2. Derulare lină atunci când se apasă pe butonul „Înapoi”
     const backButton = document.querySelector('.back-button a');
