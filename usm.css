@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.usm-header {
+    background: url('https://media.radiochisinau.md/image/201609/640x360/a255ceee22efd812ae022fbdc49f7c91.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.usm-header h1 {
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.usm-about {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+    background-image: url('https://scontent.fkiv3-1.fna.fbcdn.net/v/t39.30808-6/302139610_582143777030974_5227776575021975797_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=jMjbE5aYSiQQ7kNvgGnky6e&_nc_oc=AdhlMIaRJxZk1rfOJ8CATI28xxJqiKb8WEGSAmUXMVYBLNueTVHOSE2UYKvdOfbVK5E&_nc_zt=23&_nc_ht=scontent.fkiv3-1.fna&_nc_gid=AClLLJ09oGt9U2Ll3fb8lGH&oh=00_AYBXYO0W5Ym2dlWfWctBKd8LT2gvnWSagCp6NiZYVqZ2Jg&oe=67CD905A');
+    background-size: cover;
+    background-position: center;
+}
+
+.usm-about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.section-title h2 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #01092b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.usm-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.usm-text {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+.usm-image {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+.usm-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.usm-image img:hover {
+    transform: scale(1.05);
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease;
+}
+
+.back-button i {
+    font-size: 18px;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 183, 255, 0.7);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+footer p {
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .usm-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .usm-image img {
+        width: 80%;
+    }
+
+    .usm-text {
+        font-size: 1.1em;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
